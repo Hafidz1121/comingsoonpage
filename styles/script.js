@@ -1,4 +1,4 @@
-var countDownDate = new Date("Jan 14, 2022 00:00:00").getTime();
+var countDownDate = new Date("Dec 11, 2022 00:00:00").getTime();
 var x = setInterval(function() {
 
     var now = new Date().getTime();
@@ -13,6 +13,6 @@ var x = setInterval(function() {
 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("time").innerHTML = "Happy Birthday Ke- 18 Tahun :)";
+        document.getElementById("time").innerHTML = "Happy Birthday Ke- 18 Tahun Bby🌻";
     }
 }, 1000);
